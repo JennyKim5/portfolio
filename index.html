@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jenny's Portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/smooth.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1 class="logo"><a href="#"><img src="./img/logo.png" alt="포트폴리오 로고"></a></h1>    
+            <ul class="gnb">
+                <li>
+                    <a href="#home">
+                        <img src="./img/SVG/menu_home_gray.svg" alt="홈 바로가기">
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <img src="./img/SVG/menu_profile_gray.svg" alt="프로필 바로가기">
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#popup">
+                        <img src="./img/SVG/menu_design_gray.svg" alt="디자인 바로가기">
+                        <span>Design</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#redesignA">
+                        <img src="./img/SVG/menu_redesign_gray.svg" alt="리디자인 바로가기">
+                        <span>Re-design</span>
+                    </a>
+                </li>
+                <!-- <li>
+                    <a href="#">
+                        <img src="./img/SVG/menu_clone_gray.svg" alt="클론코딩 바로가기">
+                        <span>Clone Coding</span>
+                    </a>
+                </li> -->
+                <li>
+                    <a href="#contact">
+                        <img src="./img/SVG/menu_contact_gray.svg" alt="연락처 바로가기">
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+        </header>
+
+        <main>
+            <!-- <section class="toTop"></section> -->
+            <!-- <section class="start">
+                <section class="cover"></section>
+                <div class="pink A"></div>
+                <div class="pink B"></div>
+                <div class="yellow A"></div>
+                <div class="yellow B"></div>
+                <div class="blue A"></div>
+            </section>   -->
+            <div class="intro building" id="home">
+                <section class="cover begin">
+                    <ul class="intro_wordsB begin">
+                        <li class="html"><div></div></li>
+                        <li class="css"><div></div></li>
+                        <li class="web"><div> </div></li>
+                        <li class="js"><div></div></li>
+                        <li class="jq"><div></div></li>
+                    </ul>
+                </section>
+
+                <section class="intro_elv">
+                    <div class="pinkbox"></div>
+                    <div class="pink B"></div>
+                    <div class="yellow A"></div>
+                    <div class="yellow B"></div>
+                    <div class="blue A"></div>
+
+                    <div class="graybox"></div>
+                    <ul class="intro_icon">
+                        <li class="icon_ai"><img src="./img/introai.png" alt="일러스트레이터 아이콘"></li>
+                        <li class="icon_html"><img src="./img/introhtml.png" alt="html 아이콘"></li>
+                        <li class="icon_img"><img src="./img/introimg.png" alt="그림 아이콘"></li>
+                        <li class="icon_js"><img src="./img/introjs.png" alt="javascript 아이콘"></li>
+                        <li class="icon_ps"><img src="./img/introps.png" alt="photoshop 아이콘"></li>
+                    </ul>
+                    <ul class="intro_words begin">
+                        <li class="html"><div>HTML</div></li>
+                        <li class="css"><div>CSS</div></li>
+                        <li class="web"><div>Web Publisher</div></li>
+                        <li class="js"><div>JAVASCRIPT</div></li>
+                        <li class="jq"><div>jQuery</div></li>
+                    </ul>
+                    <section class="intro_txt f_koB">
+                        <p><span class="f_koC">끈질긴 꼼꼼함</span>과</p>
+                        <p><span class="f_koC">꾸준한 성실함</span>으로 이루어내는</p>
+                        <p>웹퍼블리셔 김지원 입니다</p>
+                    </section>
+                </section>
+
+            </div>
+            <div class="about" id="about">
+                <section class="elv">
+                    <section class="bg_roundB">
+                        <div class="inner">
+                            <div class="about_tit">
+                                <section class="shape">
+                                    <div class="pink"></div>
+                                    <div class="yellow"></div>
+                                    <div class="blue"></div>
+                                </section>
+                                <h2 class="text">
+                                    About<span>Web Publisher</span>
+                                    <span class="word jiwon">김지원</span>
+                                    <span class="word jenny">Jenny</span>
+                                </h2>
+                            </div>
+                            <div class="about_des">
+                                <section class="profile">
+                                    <h3><b>Profile</b><img src="./img/profile_profile.png" alt="프로필아이콘"></h3>
+                                    <dl>
+                                        <dt>Name</dt>
+                                        <dd class="f_koB">김지원</dd>
+                                        <dt>Education</dt>
+                                        <dd class="f_koB">
+                                            <ul>
+                                                <li>총신대 유아교육학과</li>
+                                                <li>UI/UX 반응형웹 디자인 & <br>퍼블리셔 양성과정</li>
+                                            </ul>
+                                        </dd>
+                                        <dt>Experience</dt>
+                                        <dd class="f_koB">
+                                            <ul>
+                                                <li>Malaysia 유학</li>
+                                                <li>유아교육기관 7년 근무</li>
+                                            </ul>
+                                        </dd>
+                                    </dl>
+                                </section>
+                                <section class="values">
+                                    <div class="hover">
+                                        <b>
+                                            <svg width="13px" height="10px" viewBox="0 0 13 10">
+                                                <path d="M1,5 L11,5"></path>
+                                                <polyline points="8 1 12 5 8 9"></polyline>
+                                            </svg>
+                                            HOVER
+                                        </b>
+                                    </div>
+                                    <div class="shadow"></div>
+                                    <h3><b>Personal Values</b><img src="./img/profile_heart.png" alt="하트아이콘"></h3>
+                                    <ul>
+                                        <li class="m-flip js-flip">
+                                            <div>
+                                                <span class="m-flip_item">Generosity</span>
+                                                <span class="m-flip_item f_koB">너그러움</span>
+                                            </div>
+                                        </li>
+                                        <li class="m-flip js-flip">
+                                            <span class="m-flip_item">Integrity</span>
+                                            <span class="m-flip_item f_koB">진실성</span>
+                                        </li>
+                                        <li class="m-flip js-flip">
+                                            <span class="m-flip_item">Honesty</span>
+                                            <span class="m-flip_item f_koB">정직함</span>
+                                        </li>
+                                        <li class="m-flip js-flip">
+                                            <span class="m-flip_item">Love</span>
+                                            <span class="m-flip_item f_koB">사랑</span>
+                                        </li>
+                                        <li class="m-flip js-flip">
+                                            <span class="m-flip_item">Patience</span>
+                                            <span class="m-flip_item f_koB">인내심</span>
+                                        </li>
+                                        <li class="m-flip js-flip">
+                                            <span class="m-flip_item">Justice</span>
+                                            <span class="m-flip_item f_koB">공정성</span>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section class="bg_roundY">
+                        <div class="inner">
+                            <div class="about_des">
+                                <section class="skills">
+                                    <h3><b>Skills</b><img src="./img/profile_skill.png" alt="Skill 아이콘"></h3>
+                                    <div>
+                                        <ul class="skill_graph">
+                                            <li>
+                                                <h4>HTML</h4>
+                                                <div>
+                                                    <span class="skillBar_HTML"></span>
+                                                </div>
+                                                <p><b class="skillPer_HTML">90</b>%</p>
+                                            </li>
+                                            <li>
+                                                <h4>CSS</h4>
+                                                <div>
+                                                    <span class="skillBar_CSS"></span>
+                                                </div>
+                                                <p><b class="skillPer_CSS">90</b>%</p>
+                                            </li>
+                                            <li>
+                                                <h4>Js</h4>
+                                                <div>
+                                                    <span class="skillBar_JS"></span>
+                                                </div>
+                                                <p><b class="skillPer_JS">70</b>%</p>
+                                            </li>
+                                            <li>
+                                                <h4>jQ</h4>
+                                                <div>
+                                                    <span class="skillBar_jQ"></span>
+                                                </div>
+                                                <p><b class="skillPer_jQ">70</b>%</p>
+                                            </li>
+                                            <li>
+                                                <h4>ai</h4>
+                                                <div>
+                                                    <span class="skillBar_ai"></span>
+                                                </div>
+                                                <p><b class="skillPer_ai">85</b>%</p>
+                                            </li>
+                                            <li>
+                                                <h4>Ps</h4>
+                                                <div>
+                                                    <span class="skillBar_Ps"></span>
+                                                </div>
+                                                <p><b class="skillPer_Ps">80</b>%</p>
+                                            </li>
+                                        </ul>
+                                        <a href="#" class="cta">
+                                            <span>Click me ★</span>
+                                          </a>
+                                        <section class="skill_txt">
+                                            <ul class=" f_koB">
+                                                <li class="on">
+                                                    <h4>HTML<img src="./img/intro_html.png" alt="html 아이콘"></h4>
+                                                    <p class="f_koB">맥락에 맞는 태그를 사용하여 홈페이지의 전체 컨텐츠를  짜임새 있게 구성할 수 있으며, 웹표준과  웹접근성에 적합한  코드를 만들 수 있습니다.</p>
+                                                </li>
+                                                <li>
+                                                    <h4>CSS<img src="./img/intro_css.png" alt="css 아이콘"></h4>
+                                                    <p class="f_koB">다양한 트렌드 디자인과 애니메이션을 구성하며 JAVASCRIPT와 연동할 수 있는 디자인을 제작할 수 있습니다.</p>
+                                                </li>
+                                                <li>
+                                                    <h4>JS & jQuery<img src="./img/intro_js.png" alt="javascript 아이콘"></h4>
+                                                    <p class="f_koB">슬라이드, 메뉴, 스크롤 애니메이션 기능 등 다양한 동적 기능을 JAVASCRIPT와 JQUERY로 구현할 수 있습니다.</p>
+                                                </li>
+                                                <li>
+                                                    <h4>Photoshop<img src="./img/intro_ps.png" alt="photoshop 아이콘"></h4>
+                                                    <p class="f_koB">사진 보정 및 합성, 상세페이지, SNS디자인 등 다양한 실무 디자인을 제작할 수 있습니다.</p>
+                                                </li>
+                                                <li>
+                                                    <h4>Illustrator<img src="./img/intro_ai.png" alt="일러스트레이터 아이콘"></h4>
+                                                    <p class="f_koB">간단한 캐릭터 디자인, 로고 디자인 등 깔끔하고 돋보이는 벡터 디자인을 제작할  수 있습니다.</p>
+                                                </li>
+                                            </ul>
+                                            <div class="controller">
+                                                <span class="btn_prev"><img src="./img/SVG/arrow_L.svg" alt="왼쪽 화살표"> </span>
+                                                <span class="btn_next"> <img src="./img/SVG/arrow_R.svg" alt="오른쪽 화살표"> </span>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </section>
+                                <section class="cert">
+                                    <h3><b>Certificates</b><img src="./img/profile_certificate.png" alt="자격증아이콘"></h3>
+                                    <ul class="f_koB">
+                                        <li><img src="./img/cert_ps.png" alt="Adobe Photoshop 아이콘">Adobe Photoshop 1급</li>
+                                        <li><img src="./img/cert_ai.png" alt=" Adobe Illustrator아이콘">Adobe Illustrator 1급</li>
+                                        <li><img src="./img/cert_web.png" alt="웹디자인기능사 필기 아이콘">웹디자인기능사 필기</li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+            <div class="popup" id="popup">
+                <section class="inner">
+                    <div class="popup_tit">
+                        <h2>Pop-up Design</h2>
+                        <p class="f_koB">다양한 주제의 팝업디자인물을 벤치마킹하여 디자인해보았습니다.</p>
+                        <p>Size : 500 x 500</p> 
+                    </div>
+                    <ul class="popup_list">
+                        <li class="popupA">
+                            <figure>
+                                <img src="./img/popup/popup1.jpg" alt="5th Anniversary">
+                                <figcaption>5th Anniversary</figcaption>
+                            </figure>
+                            <span>#D4E8E7</span>
+                            <span>#2F521F</span>
+                        </li>
+                        <li class="popupB">
+                            <figure>
+                                <img src="./img/popup/popup2.jpg" alt="Free Scoop Day">
+                                <figcaption>Free Scoop Day</figcaption>
+                            </figure>
+                            <span>#FFD7E4</span>
+                            <span>#FFFFFF</span>
+                            <span>#FF8B8B</span>
+                        </li>
+                        <li class="popupC">
+                            <figure>
+                                <img src="./img/popup/popup3.png" alt="Black Friday">
+                                <figcaption>Black Friday</figcaption>
+                            </figure>
+                            <span>#FF3300</span>
+                            <span>#000000</span>
+                        </li>
+                        <li class="popupD">
+                            <figure>
+                                <img src="./img/popup/popup4.png" alt="Christmas Fair">
+                                <figcaption>Christmas Fair</figcaption>
+                            </figure>
+                            <span>#124218</span>
+                            <span>#83CC85</span>
+                            <span>#FFF5CA</span>
+                        </li>
+                        <li class="popupE">
+                            <figure>
+                                <img src="./img/popup/popup5.jpg" alt="Summer Sale">
+                                <figcaption>Summer Sale</figcaption>
+                            </figure>
+                            <span>#DF1C23</span>
+                            <span>#233126</span>
+                            <span>#FFF4F3</span>
+                        </li>
+                        <li class="popupF">
+                            <figure>
+                                <img src="./img/popup/popup6.jpg" alt="Follower Event">
+                                <figcaption>Follower Event</figcaption>
+                            </figure>
+                            <span>#B3D7FC</span>
+                            <span>#FFF4C4</span>
+                            <span>#FFD75B</span>
+                        </li>
+                        <li class="popupG">
+                            <figure>
+                                <img src="./img/popup/popup7.jpg" alt="New Year">
+                                <figcaption>New Year</figcaption>
+                            </figure>
+                            <span>#FFFCDD</span>
+                            <span>#EBC65C</span>
+                            <span>#1E1D1A</span>
+                        </li>
+                        <li class="popupH">
+                            <figure>
+                                <img src="./img/popup/popup8.png" alt="Christmas">
+                                <figcaption>Christmas</figcaption>
+                            </figure>
+                            <span>#EEEEE4</span>
+                            <span>#1E4739</span>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="modal"></div>
+            <div class="banner">
+                <div class="banner_tit">
+                    <h2>Banner Design</h2>
+                    <p class="f_koB">주제와 연관된 색상을 활용하여 배너를 디자인해보았습니다.</p>
+                </div>
+                <div class="bg_roundW">
+                    <ul class="bannerList">
+                        <li class="on"><img src="./img/banner/banner1.png" alt="Black Friday 배너"></li>
+                        <li><img src="./img/banner/banner2.jpg" alt="Christmas 배너"></li>
+                        <li><img src="./img/banner/banner3.jpg" alt="Aquarium 배너"></li>
+                        <li><img src="./img/banner/banner4.jpg" alt="Artbox 배너"></li>
+                    </ul>
+                    <ul class="bannerPop">
+                        <li><img src="./img/banner/banner1.png" alt="Black Friday 배너"></li>
+                        <li><img src="./img/banner/banner2.jpg" alt="Christmas 배너"></li>
+                        <li><img src="./img/banner/banner3.jpg" alt="Aquarium 배너"></li>
+                        <li><img src="./img/banner/banner4.jpg" alt="Artbox 배너"></li>
+                    </ul>
+                    <section>
+                        <ul class="pagination">
+                            <li class="on">banner1</li>
+                            <li>banner2</li>
+                            <li>banner3</li>
+                            <li>banner4</li>
+                        </ul>
+                        <ul class="banner_des">
+                            <li class="on">
+                                <h3>Black Friday</h3>
+                                <p>Size : <span>1920 X 600</span></p>
+                                <div>
+                                    <p>Color : </p>
+                                    <ul class="banner_colorA">
+                                        <li>
+                                            <span></span>
+                                            <p>#000000</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#C1C1C1</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#CF6800</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Christmas</h3>
+                                <p>Size : <span>1920 X 600</span></p>
+                                <div>
+                                    <p>Color : </p>
+                                    <ul class="banner_colorB">
+                                        <li>
+                                            <span></span>
+                                            <p>#839460</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#FCEDDA</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#FF7F5F</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Aquarium</h3>
+                                <p>Size : <span>1920 X 960</span></p>
+                                <div>
+                                    <p>Color : </p>
+                                    <ul class="banner_colorC">
+                                        <li>
+                                            <span></span>
+                                            <p>#116BC5</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#1EA2E0</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <h3>Artbox</h3>
+                                <p>Size : <span>1920 X 960</span></p>
+                                <div>
+                                    <p>Color : </p>
+                                    <ul class="banner_colorD">
+                                        <li>
+                                            <span></span>
+                                            <p>#CAAA7B</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#F8C95D</p>
+                                        </li>
+                                        <li>
+                                            <span></span>
+                                            <p>#07090A</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <div class="redesignA" id="redesignA">
+                <section class="bg_roundDot">
+                    <div class="inner">
+                        <section class="redesignA_des">
+                            <h2 class="reA_h2 transX">Re-design</h2>
+                            <h3 class="reA_h3 transX f_koB">울진아쿠아리움</h3>
+                            <p class="reA_p1 transX f_koB">반응형</p>
+                            <p class="reA_p2 transX f_koB">기여도: 100%</p>
+                            <p class="reA_p3 transX f_koB">기존 사이트는 최근의 평균 모니터 폭보다 좁은 환경을 <br>
+                                기준으로 하고, 퀄리티가 낮은 실사 이미지를 사용한 <br>
+                                단순한 레이아웃의 웹페이지 입니다. <br>
+                                영상 및 이미지 자료를 통해 웹페이지 방문자의 <br>
+                                관심도를 높일 수 있도록 리디자인 했습니다. 
+                            </p>
+                            <span class="transX reA_more"><a href="http://jenny53.dothome.co.kr/" target="_blank">View More</a></span>
+                        </section>
+                        <section class="redesign_mockup transX">
+                            <img src="./img/redesign_mockup.png" alt="리디자인 목업">
+                        </section>
+                    </div>   
+                </section>
+            </div>
+            <div class="redesignB">
+                <section class="inner">
+                    <div class="redesignB_tit">
+                        <h2>Re-design</h2>
+                        <p>_HISTORY</p>
+                    </div>
+                    <div class="redesign_PnS">
+                        <section class="prob">
+                            <h4>Problems</h4>
+                            <ul class="f_koB">
+                                <li class="transX">기본 폰트, 매력적이지 않은 이미지 사용으로 방문자의 눈길을 사로잡지 못함. </li>
+                                <li class="transX">가로폭이 최근 모니터 평균사이즈 대비 좁음.</li>
+                                <li class="transX">모바일 기기에서도 동일한 레이아웃.</li>
+                                <li class="transX">메인페이지의 경우 정보마다 여백이 적어 가독성이 떨어짐. </li>
+                                <li class="transX">정보가 이미지로 되어 확대 / 축소 시 좋지 않고, 검색 시 노출되기 어려움.</li>
+                            </ul>
+                        </section>
+                        <section class="solution">
+                            <h4>Solutions</h4>
+                            <ul class="f_koB">
+                                <li class="transX">새로운 로고 디자인.</li>
+                                <li class="transX">불필요한 텍스트들을 줄이고 이미지 / 영상 활용.</li>
+                                <li class="transX">전체 비율을 16:9로 재조정하고 반응형 제작.</li>
+                                <li class="transX">스크롤을 내릴 때 페이지당 한 가지 정보만 게시하고 애니메이션 추가. </li>
+                                <li class="transX">이미지였던 정보들을 텍스트로 변환.</li>
+                            </ul>
+                        </section>
+                    </div>
+                </section>
+            </div>
+            <div class="redesignC">
+                <img src="./img/redesign_solution_Portfolio.jpg" alt="리디자인 솔루션 result">
+            </div>
+            <div class="transitionB">
+                <section class="toBright"></section>
+            </div>
+            <div class="contact" id="contact">
+                <section class="inner">
+                    <div class="outro">
+                        <section class="pink"></section>
+                        <section class="yellow"></section>
+                        <section class="blue"></section>
+                    </div>
+                    <div class="contact_txt">
+                        <p class="transO f_koB">끊임없는 성장을 통해 <br>
+                            지속적으로 발전하는 <br>
+                            웹퍼블리셔가 되겠습니다.</p>
+                        <div class="email_btn custom-btn btn-8">
+                            <span>
+                                <svg viewBox="0 0 42.71 37.14">
+                                    <g id="field">
+                                        <g>
+                                            <path class="cls-2" d="M40.71,5.57V31.54c0,2-1.64,3.6-3.6,3.6H5.6c-2,0-3.6-1.6-3.6-3.6V5.57c0-1.97,1.6-3.57,3.6-3.57h31.51c1.97,0,3.6,1.6,3.6,3.57Z"/>
+                                            <path class="cls-1" d="M22.66,18.09c-1.13,.7-1.54,.67-2.64,0L2,7.57v3.94l15.75,9.18c1.57,.87,2.3,1.4,3.6,1.4s2.24-.73,3.57-1.4l15.79-9.14v-3.97l-18.06,10.51Z"/>
+                                        </g>
+                                    </g>
+                                </svg>
+                                tgfjr.jenny@gmail.com
+                            </span>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="footer">
+                    <p class="f_koB">본 사이트는 상업적 용도가 아닌 개인 포트폴리오 용으로 제작되었습니다.</p>
+                    <p class="copy">© 2023. Jenny Kim. All Rights Reserved.</p>
+                </section>
+            </div>
+        </main>
+    </div> 
+</body>
+</html>

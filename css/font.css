@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "mona-sans Regular", Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: local("Mona-Sans"), url("https://fonts.cdnfonts.com/s/91271/Mona-Sans-Regular.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "mona-sans Medium", Arial,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    src: local("Mona-Sans"), url("https://fonts.cdnfonts.com/s/91271/Mona-Sans-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: "mona-sans SemiBold", Arial,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    src: local("Mona-Sans"), url("https://fonts.cdnfonts.com/s/91271/Mona-Sans-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: "mona-sans Bold", Arial,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Mona-Sans"), url("https://fonts.cdnfonts.com/s/91271/Mona-Sans-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: "mona-sans", Arial,sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    src: local("Mona Sans"), url("https://fonts.cdnfonts.com/s/91271/Mona-Sans.woff") format("woff");
+}
+
+
+
+@font-face {
+    font-family: 'Noto Sans KR', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Noto+Sans+KR&display=swap');
+}
+
+
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'LeferiBaseType-RegularA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiBaseType-RegularA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'omyu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
