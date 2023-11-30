@@ -368,9 +368,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
         scr=$(window).scrollTop()
-        let move =  (-(scr - popupTop) / devHeight* 100) - 100;
+        let move =  (-(scr - popupTop) / devHeight* 100) - 50;
 
-        if(scr+devHeight > popupTop){
+        if(scr > popupTop){
             $(".popupA").css("transform","translateY("+move+"%)")
             $(".popupB").css("transform","translateY("+move*1.1+"%)")
             $(".popupC").css("transform","translateY("+move*1.2+"%)")
