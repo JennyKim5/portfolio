@@ -374,7 +374,7 @@ $(document).ready(function(){
             $(".popupA").css("transform","translateY("+move+"%)")
             $(".popupB").css("transform","translateY("+move*1.1+"%)")
             $(".popupC").css("transform","translateY("+move*1.2+"%)")
-            $(".popupD").css("transform","translateY("+move*1.4+"%)")
+            $(".popupD").css("transform","translateY("+move*1.2+"%)")
             $(".popupE").css("transform","translateY("+move*1.3+"%)")
             $(".popupF").css("transform","translateY("+move*1.2+"%)")
             $(".popupG").css("transform","translateY("+move*1.2+"%)")
