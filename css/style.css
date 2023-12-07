@@ -1071,14 +1071,15 @@ header{
 }
   
 .cert>ul>li{
-    margin-bottom: 28px;
-    font-size: 21px;
+    margin-bottom: 20px;
+    font-size: 20px;
     font-family: 'LeferiBaseType-RegularA';
     display: flex;
     align-items: end;
 }
 .cert>ul>li>img{
-    margin-right: 10px;
+    margin-right: 15px;
+    width: 42px;
 }
 .cert>ul>li:last-of-type{
     margin-bottom: 0;
@@ -1449,7 +1450,7 @@ header{
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 75%;
+    width: 78%;
     z-index: 300;
     cursor: pointer;
 }
@@ -1467,7 +1468,6 @@ header{
     pointer-events: none;
     z-index: 250;
 }
-
 
 
 /* redesign A */
