@@ -116,111 +116,15 @@ header{
     background-color: #f8f9fd;
     z-index: 5;
 } */
-/* main>.start{
-    position: relative; 
-    z-index: -1; 
-    width: 100%; 
-    min-height: 100vh;
-} */
-/* .start.ab{
-    position: absolute;
-    top:0;
-    left: 0;
-    z-index: 1;
-}
-.start>.pink{
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    z-index: 10;
-    transform: translate(-50%, -50%);
-    transform-origin: -30% 100% ;
-    border-radius: 20px;
-    background: #FFC4C4;
-    animation: coverP 1s ease 1s forwards;
-}
-.start>.yellow{
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    z-index: 10;
-    transform: translate(-50%, -50%);
-    transform-origin: -30% 100% ;
-    border-radius: 20px;
-    background: #FFFAC7;
-    animation: coverY 1s ease 1s forwards;
-}
-.start>.blue{
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    z-index: 10;
-    transform: translate(-50%, -50%);
-    transform-origin: -30% 100% ;
-    border-radius: 20px;
-    background: #CCF2FF;
-    animation: coverB 1s ease 1s forwards;
-} */
-
-/* .start>.pink.A.on{
-    animation: introP_A 1.5s ease 0s forwards;
-}
-.start>.pink.B.on{
-    animation: introP_B 1.5s ease 0s forwards;
-}
-.start>.yellow.A.on{
-    animation: introY_A 1.5s ease 0s forwards;
-}
-.start>.yellow.B.on{
-    animation: introY_B 1.5s ease 0s forwards;
-}
-.start>.blue.A.on{
-    animation: introB_B 1.5s ease 0s forwards;
-} */
-/* 
-.start>.pink.A.on.abt{
-    animation: to_abt_PA 2s ease 0s forwards;
-}
-.start>.pink.B.on.abt{
-    animation: to_abt_PB 2s ease 0s forwards;
-}
-.start>.yellow.A.on.abt{
-    animation: to_abt_YA 2s ease 0s forwards;
-}
-.start>.yellow.B.on.abt{
-    animation: to_abt_YB 2s ease 0s forwards;
-}
-.start>.blue.A.on.abt{
-    animation: to_abt_B 2s ease 0s forwards;
-} */
-
-/* .start>.pink.A.on.abt.return{
-    animation: return_PA 2s ease 0s forwards;
-}
-.start>.pink.B.on.abt.return{
-    animation: return_PB 2s ease 0s forwards;
-}
-.start>.yellow.A.on.abt.return{
-    animation: return_YA 2s ease 0s forwards;
-}
-.start>.yellow.B.on.abt.return{
-    animation: return_YB 2s ease 0s forwards;
-}
-.start>.blue.A.on.abt.return{
-    animation: return_B 2s ease 0s forwards;
-} */
 
 /* main */
 
 
 
-
+.info{position: absolute;
+    right: 5% ;
+    bottom:5% ; 
+    font-size: 1.2rem;}
 .intro{
     width: 100%;
     height: 300vh;
@@ -394,16 +298,16 @@ header{
 .intro_wordsB.begin>li.begin.html,
 .intro_wordsB.begin>li.begin.js{
     top: 370px;
-    left: 820px;
+    left: 44%;
 }
 .intro_wordsB.begin>li.begin.css,
 .intro_wordsB.begin>li.begin.web{
     top: 330px;
-    left: 920px;
+    left: 48%;
 }
 .intro_wordsB.begin>li.begin.jq{
     top: 400px;
-    left: 920px;
+    left: 48%;
 }
 
 .intro_wordsB.begin>li.css{
@@ -447,7 +351,7 @@ header{
 }
 .intro_words>.css{
     top: 250px;
-    left: 1140px;
+    left: 60%;
     background: rgb(255, 253, 234);
     border: 3px solid rgb(255, 250, 203);
     width: 90px;
