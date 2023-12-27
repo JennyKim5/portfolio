@@ -39,7 +39,7 @@ html{
     pointer-events: auto;
 }
 
-.wrap, main{position: relative;}
+.wrap, main{position: relative; overflow: hidden;}
 
 /* header */
 header{
@@ -103,19 +103,6 @@ header{
     opacity: 1;
     pointer-events: auto;
 }
-
-/* cover */
-/* .cover{
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-    top:0;
-    left: 0;
-    opacity: 1;
-    transition: all 1s ease 0s;
-    background-color: #f8f9fd;
-    z-index: 5;
-} */
 
 /* main */
 
@@ -754,8 +741,8 @@ header{
     display: flex;
     position: absolute;
     top: 0;
-    left: 20%;
-    width: 80%;
+    right: 0;
+    width: 75%;
     height: 100%;
     background: #fffafa;
     border-radius: 0 15px 15px 0;
